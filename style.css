@@ -1,0 +1,5 @@
+body{
+    /*background: linear-gradient(200deg, rgba(238, 245, 255, 1) 0%, rgba( 180, 212, 255, 1) 57%, rgba(134, 182, 246,1) 73%, rgba(255, 169, 90, 1) 97%, rgba(255, 90, 90, 1) 100%);*/
+    background-size: 100% 200%;
+    background: linear-gradient(180deg, rgba(238, 245, 255, 1) 0%, rgba(180, 212, 255, 1) 100%) no-repeat;
+}
