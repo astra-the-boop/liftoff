@@ -13,5 +13,16 @@ body{
 }
 
 #runway-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     perspective: 1000px;
+    z-index: 1;
+}
+
+#cessna-container{
+    position: fixed;
+    bottom: 5%;
+    z-index: 100;
 }
