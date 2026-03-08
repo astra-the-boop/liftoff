@@ -3,3 +3,15 @@ body{
     /*background-size: 100% 200%;*/
     /*background: linear-gradient(180deg, rgba(238, 245, 255, 1) 0%, rgba(180, 212, 255, 1) 100%) no-repeat;*/
 }
+
+#runway{
+    transform: rotateX(88deg);
+    perspective-origin: center top;
+    display: block;
+    margin: 0 auto;
+    transform-origin: center;
+}
+
+#runway-container{
+    perspective: 1000px;
+}
