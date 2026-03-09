@@ -7,12 +7,12 @@ body{
 }
 
 #runway{
-    transform: rotateX(130deg);
+    transform: rotateX(157deg);
     perspective-origin: center top;
     display: block;
     margin: 0 auto;
     transform-origin: center bottom;
-    width: 30%;
+    width: 80%;
 }
 
 #runway-container{
@@ -25,12 +25,21 @@ body{
 }
 
 #cessna-container{
-    position: absolute;
     bottom: 12%;
     z-index: 100;
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 #start{
     position:relative;
     height: 100vh
+}
+
+#cessna{
+    width: 50%;
 }
