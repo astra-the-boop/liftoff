@@ -2,18 +2,21 @@ body{
     /*!*background: linear-gradient(200deg, rgba(238, 245, 255, 1) 0%, rgba( 180, 212, 255, 1) 57%, rgba(134, 182, 246,1) 73%, rgba(255, 169, 90, 1) 97%, rgba(255, 90, 90, 1) 100%);*!*/
     /*background-size: 100% 200%;*/
     /*background: linear-gradient(180deg, rgba(238, 245, 255, 1) 0%, rgba(180, 212, 255, 1) 100%) no-repeat;*/
+    padding: 0;
+    margin: 0;
 }
 
 #runway{
-    transform: rotateX(88deg);
+    transform: rotateX(130deg);
     perspective-origin: center top;
     display: block;
     margin: 0 auto;
-    transform-origin: center;
+    transform-origin: center bottom;
+    width: 30%;
 }
 
 #runway-container{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -22,7 +25,12 @@ body{
 }
 
 #cessna-container{
-    position: fixed;
-    bottom: 5%;
+    position: absolute;
+    bottom: 12%;
     z-index: 100;
+}
+
+#start{
+    position:relative;
+    height: 100vh
 }
