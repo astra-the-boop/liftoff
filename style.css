@@ -16,9 +16,9 @@ body{
 }
 
 #runway-container{
-    transform: rotateX(90deg);
+    transform: rotateX(90deg) translateX(-50%);
     transform-origin: center bottom;
-    position: static;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 30%;
