@@ -1,61 +1,9 @@
 body{
-    /*!*background: linear-gradient(200deg, rgba(238, 245, 255, 1) 0%, rgba( 180, 212, 255, 1) 57%, rgba(134, 182, 246,1) 73%, rgba(255, 169, 90, 1) 97%, rgba(255, 90, 90, 1) 100%);*!*/
-    /*background-size: 100% 200%;*/
-    /*background: linear-gradient(180deg, rgba(238, 245, 255, 1) 0%, rgba(180, 212, 255, 1) 100%) no-repeat;*/
-    padding: 0;
-    margin: 0;
+    margin:0
 }
 
-#runway{
-
-    /*perspective-origin: center bottom;*/
-    display: block;
-    margin: 0 auto;
-    width: 80%;
+#a{
+    width: 100vw;
     height: 100vh;
-}
-
-#runway-container{
-    transform: rotateX(90deg) translateX(-50%);
-    transform-origin: center bottom;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 30%;
-    height: 100vh;
-    border: 5px solid black;
-    z-index: 50;
-}
-
-#cessna-container{
-    bottom: 1%;
-    z-index: 100;
-    width: 20%;
-    border: 1px solid black;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-#start{
-    position:relative;
-    height: 300vh
-}
-
-#cessna{
-    width: 100%;
-}
-
-#scene{
-    perspective: 1000px;
-
-    position: sticky;
-    /*background-color: red;*/
-    top:0;
-    height: 100vh;
-    max-height: 100vh;
-    /*perspective: 1000px;*/
-    perspective-origin: center bottom;
-    transform-style: preserve-3d;
+    background-color: blue;
 }
